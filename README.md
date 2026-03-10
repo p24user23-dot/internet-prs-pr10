@@ -1,22 +1,24 @@
-# Developer Portfolio
+# Портфоліо Розробника
 
-Pixel-perfect, responsive developer portfolio landing page built with HTML5 and CSS3.
+Адаптивний лендінг-портфоліо розробника (Pixel-Perfect), створений за допомогою HTML5 та CSS3.
 
-## Features
-- **Semantic HTML5:** Clean and accessible markup structure (`<header>`, `<nav>`, `<main>`, `<section>`, `<aside>`).
-- **Responsive Design:** Fully responsive layout adapting to mobile and tablet screens using CSS Flexbox and Grid.
-- **Dark Theme:** Modern dark theme aesthetic (`#121212`) matching the provided Figma design with a highlight green (`#25B81D`).
-- **Sticky Sidebar:** Left profile card stays fixed "sticky" while scrolling the main content on desktop.
+🚀 **Живий перегляд:** [https://jolly-planes.surge.sh](https://jolly-planes.surge.sh)
 
-## Sections
-- **About:** Overview with years of experience and project completion stats.
-- **Skills:** Level of proficiency demonstrated with progress bars. 
-- **Projects:** A grid displaying the latest projects.
-- **Experience:** A vertical timeline showcasing work history.
-- **Review:** Testimonial blocks from clients.
-- **Contact:** Clean, user-friendly contact form.
+## Особливості
+- **Семантичний HTML5:** Чиста структура (`<header>`, `<nav>`, `<main>`, `<section>`, `<aside>`).
+- **Адаптивний дизайн:** Повна підтримка мобільних пристроїв завдяки CSS Flexbox та Grid.
+- **Темна тема:** Сучасний темний дизайн з зеленими акцентами (як у макеті Figma).
+- **Липка бічна панель ("Sticky"):** Картка профілю зліва залишається на місці під час прокручування сторінки.
 
-## Technologies Used
+## Секції
+- **Про мене (About):** Досвід роботи та кількість реалізованих проєктів.
+- **Навички (Skills):** Індикатори рівня володіння технологіями.
+- **Проєкти (Projects):** Сітка з картками власних робіт.
+- **Досвід (Experience):** Вертикальний таймлайн кар'єри.
+- **Відгуки (Review):** Картки-слайдери з відгуками клієнтів.
+- **Контакти (Contact):** Робоча та зручна форма зв'язку.
+
+## Технології
 - HTML5
 - Vanilla CSS3
 - Google Fonts (Space Mono)
