@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - PR10</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-left">
+            <div class="logo">&lt;logo/&gt;</div>
+            <label class="theme-switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+
+        <nav class="nav-menu">
+            <a href="#about" class="active">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#review">Review</a>
+        </nav>
+        <button class="btn-primary">Contact Me</button>
+    </header>
+
+    <main class="container layout-wrapper">
+        <aside class="sidebar">
+            <div class="profile-card">
+                <div class="avatar-wrapper">
+                    <img src="images/profile.png" alt="Ariful Islam" class="avatar">
+                </div>
+                <h2>&lt; Ariful Islam /&gt;</h2>
+                <p class="role-title">Full Stack Web Devloper</p>
+
+                <div class="social-icons">
+                    <a href="#" class="icon-circle"><img src="images/Github.png" alt="GH"></a>
+                    <a href="#" class="icon-circle"><img src="images/Facebook.png" alt="FB"></a>
+                    <a href="#" class="icon-circle"><img src="images/Linkedin.png" alt="IN"></a>
+                    <a href="#" class="icon-circle"><img src="images/Telegram.png" alt="TG"></a>
+                </div>
+
+                <button class="btn-hire">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    Hire me
+                </button>
+
+                <div class="card-footer">
+                    <a href="#">Download Cv <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3" />
+                        </svg></a>
+                    <div class="divider"></div>
+                    <a href="#">Contact Me <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg></a>
+                </div>
+            </div>
+        </aside>
+
+        <div class="main-content">
+            <section id="about" class="about-section">
+                <div class="about-content">
+                    <div class="section-tag">
+                        <span>About me</span>
+                        <hr>
+                    </div>
+
+                    <h1 class="main-title">I am <span class="text-green">Ariful Islam</span></h1>
+
+                    <p class="description text-justify">
+                        I'm a Full Stack Developer with a passion for creating dynamic web solutions. I specialize in
+                        both
+                        front-end and back-end development, crafting user-friendly interfaces and building robust
+                        server-side systems. With a strong foundation in languages and frameworks, I thrive on turning
+                        ideas
+                        into functional, efficient code. I'm dedicated to continuous learning, staying current with
+                        industry
+                        trends, and collaborating with teams to deliver exceptional results. Let's work together to
+                        bring
+                        your digital projects to life!
+                    </p>
+
+                    <div class="stats-grid">
+                        <div class="stat-box">
+                            <span class="stat-num">4+</span>
+                            <div class="stat-desc">
+                                <span>Years of</span>
+                                <span>Experience</span>
+                            </div>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-num">23</span>
+                            <div class="stat-desc">
+                                <span>Projects</span>
+                                <span>Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="skills">
+                <div class="section-tag">
+                    <span>My skills</span>
+                    <hr>
+                </div>
+
+                <h2 class="main-title">My Skills <span class="text-green">Overview</span></h2>
+                <p class="description mb-large">A glimpse into my full-stack proficiency and technical prowess.</p>
+
+                <div class="skills-list">
+                    <div class="skill-row">
+                        <div class="skill-icon" style="background: #E34F26;">5</div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info">
+                                <span>Html</span>
+                                <span class="text-green">85%</span>
+                            </div>
+                            <div class="bar-bg">
+                                <div class="bar-fill" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-icon" style="background: #F7DF1E; color: #000;">JS</div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span class="text-green">90%</span>
+                            </div>
+                            <div class="bar-bg">
+                                <div class="bar-fill" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-icon" style="background: #3776AB;">Py</div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span class="text-green">82%</span>
+                            </div>
+                            <div class="bar-bg">
+                                <div class="bar-fill" style="width: 82%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-icon" style="background: #3178C6;">TS</div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span class="text-green">89%</span>
+                            </div>
+                            <div class="bar-bg">
+                                <div class="bar-fill" style="width: 89%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-icon" style="background: #007ACC;">VS</div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info">
+                                <span>Vs code</span>
+                                <span class="text-green">95%</span>
+                            </div>
+                            <div class="bar-bg">
+                                <div class="bar-fill" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-icon" style="background: #61DAFB; color: #000;">Re</div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info">
+                                <span>React</span>
+                                <span class="text-green">95%</span>
+                            </div>
+                            <div class="bar-bg">
+                                <div class="bar-fill" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="projects">
+                <div class="section-tag">
+                    <span>My projects</span>
+                    <hr>
+                </div>
+                <h2 class="main-title mb-large">Projects <span class="text-green">Showcase</span></h2>
+
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="img-placeholder"></div>
+                        <h3>Travel Planner</h3>
+                        <p>This is a sample project discription about this website what did you do and it's usage</p>
+                        <div class="project-links">
+                            <a href="#"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2">
+                                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                                </svg> Live Preview</a>
+                            <a href="#"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                    <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path>
+                                </svg> View Code</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="img-placeholder"></div>
+                        <h3>Apphome Mobile app</h3>
+                        <p>This is a sample project discription about this website what did you do and it's usage</p>
+                        <div class="project-links">
+                            <a href="#"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2">
+                                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                                </svg> Live Preview</a>
+                            <a href="#"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                    <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path>
+                                </svg> View Code</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="img-placeholder"></div>
+                        <h3>Tour guide</h3>
+                        <p>This is a sample project discription about this website what did you do and it's usage</p>
+                        <div class="project-links">
+                            <a href="#"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2">
+                                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                                </svg> Live Preview</a>
+                            <a href="#"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                    <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path>
+                                </svg> View Code</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="img-placeholder"></div>
+                        <h3>CMS software</h3>
+                        <p>This is a sample project discription about this website what did you do and it's usage</p>
+                        <div class="project-links">
+                            <a href="#"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2">
+                                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                                </svg> Live Preview</a>
+                            <a href="#"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                    stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                    <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path>
+                                </svg> View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="center-btn">
+                    <button class="btn-primary btn-large">Browse More</button>
+                </div>
+            </section>
+
+            <section id="experience" class="experience">
+                <div class="section-tag">
+                    <span>Experience</span>
+                    <hr>
+                </div>
+                <h2 class="main-title mb-large">Work <span class="text-green">Experience</span></h2>
+
+                <div class="timeline">
+                    <div class="timeline-row">
+                        <div class="time-col">
+                            <h4 class="text-green">Shuvo IT</h4>
+                            <span>January 2022-<br>October 2023</span>
+                        </div>
+                        <div class="line-col">
+                            <div class="dot"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="desc-col">
+                            <h4 class="text-green">Full Stack Devloper</h4>
+                            <p class="text-justify">Here I did travel agency project that was giving this company a
+                                biggest
+                                revenue lorem ipsum your great works.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-row">
+                        <div class="time-col">
+                            <h4 class="text-green">Upspell</h4>
+                            <span>January 2022-<br>October 2023</span>
+                        </div>
+                        <div class="line-col">
+                            <div class="dot"></div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="desc-col">
+                            <h4 class="text-green">Full Stack Devloper</h4>
+                            <p class="text-justify">Here I did travel agency project that was giving this company a
+                                biggest
+                                revenue lorem ipsum your great works.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-row">
+                        <div class="time-col">
+                            <h4 class="text-green">Brainstation</h4>
+                            <span>January 2022-<br>October 2023</span>
+                        </div>
+                        <div class="line-col">
+                            <div class="dot"></div>
+                        </div>
+                        <div class="desc-col">
+                            <h4 class="text-green">Full Stack Devloper</h4>
+                            <p class="text-justify">Here I did travel agency project that was giving this company a
+                                biggest
+                                revenue lorem ipsum your great works.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="review" class="clients">
+                <div class="section-tag">
+                    <span>Clients</span>
+                    <hr>
+                </div>
+                <h2 class="main-title">What Say <span class="text-green">About Me</span></h2>
+                <p class="description mb-large">Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod
+                    tempor
+                    enim minim veniam.</p>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="client-avatar"></div>
+                        <div class="client-meta">
+                            <h3>Albart Walkers</h3>
+                            <span class="text-yellow">My Client</span>
+                        </div>
+                        <svg class="quote-icon" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#25B81D"
+                            stroke-width="1">
+                            <path
+                                d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z">
+                            </path>
+                            <path
+                                d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z">
+                            </path>
+                        </svg>
+                    </div>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad assumenda culpa
+                        cumque dicta sint soluta voluptas eius iusto modi reprehenderit sint soluta voluptas.</p>
+                </div>
+                <div class="slider-dots">
+                    <div class="dot active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </section>
+
+            <section id="contact" class="contact">
+                <div class="section-tag">
+                    <span>Contact me</span>
+                    <hr>
+                </div>
+                <h2 class="main-title mb-large">Let's Work <span class="text-green">Together</span></h2>
+
+                <form class="contact-form">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea placeholder="Message" rows="5"></textarea>
+                    <button type="submit" class="btn-submit">Submit</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        copyrightxyz@all rights required
+    </footer>
+
+</body>
+
+</html>
